@@ -43,3 +43,8 @@ def LU(A):
             U[i,:] -= L[i,j]*U[j,:]
 
     return L, U
+
+
+if __name__ == "__main__":
+    import doctest
+    doctest.testmod()
